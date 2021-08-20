@@ -1869,6 +1869,7 @@ header .circle {
 
   .links ul {
     flex-direction: column;
+    justify-content: space-evenly;
   }
 
   .links a {
@@ -2094,11 +2095,20 @@ header .circle {
   .followme-wrap {
     margin-top: 0.8rem;
   }
+  #contact {
+    width: 100% !important;
+  }
+  .contact-form {
+    width: 100% !important;
+  }
 }
 
 @media (max-width: 600px) {
+  #contact {
+    width: 100% !important;
+  }
   .contact-form {
-    width: 100%;
+    width: 100% !important;
   }
   .grid-item {
     width: 100%;

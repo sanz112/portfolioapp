@@ -24,9 +24,9 @@ html {
 }
 
 
-body{
+/* body{
   background: url('../svg/flatmountain.svg') no-repeat fixed center;
-}
+} */
 
 body,
 button,
@@ -2097,6 +2097,9 @@ header .circle {
 }
 
 @media (max-width: 600px) {
+  .contact-form {
+    width: 100%;
+  }
   .grid-item {
     width: 100%;
   }
